@@ -5,8 +5,9 @@ const colorMap: Record<string, string> = {
   blue: 'terminal.ansiBlue',
   magenta: 'terminal.ansiBrightMagenta',
   red: 'terminal.ansiBrightRed',
-  white: 'terminal.ansiBrightWhite',
   cyan: 'terminal.ansiBrightCyan',
+  green: 'terminal.ansiBrightGreen',
+  yellow: 'terminal.ansiBrightYellow',
 };
 
 class ColorDecorationProvider implements vscode.FileDecorationProvider {
