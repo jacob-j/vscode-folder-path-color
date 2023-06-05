@@ -18,9 +18,7 @@ This extension does not have any additional requirements or dependencies.
 
 ## Extension Settings
 
-This extension adds the following settings in the `contributes.configuration` section:
-
-- `vscode-folder-color.folders`: An array of objects representing the folders to be colored. Each object can have the following properties:
+- `folder-path-color.folders`: An array of objects representing the folders to be colored. Each object can have the following properties:
 
 | Property  | Type   | Description                                                                                                                                       |
 | --------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
