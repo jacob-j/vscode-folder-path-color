@@ -40,7 +40,7 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
     for (const folder of folders) {
       this.folders.push({
         path: folder.path,
-        color: folder.color || colors[i] || colorMap[i],
+        color: folder.color || colors[i] || Object.values(colorMap)[i],
         symbol: folder.symbol,
       });
       i++;
@@ -49,7 +49,7 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
 
   constructor() {
     vscode.workspace.onDidChangeConfiguration((e) => {
-      if (e.affectsConfiguration('vscode-folder-color.folders')) {
+      if (e.affectsConfiguration('folder-path-color.folders')) {
         this.constructFolders();
         this._onDidChangeFileDecorations.fire(undefined);
       }
