@@ -27,12 +27,12 @@ This extension adds the following settings in the `contributes.configuration` se
 | `symbol`  | string | A short symbol to display next to the folder. This should be a string of maximum 2 characters. You can also use an emoji for more visual display. |
 | `tooltip` | string | A tooltip to display when you hover over the folder's symbol.                                                                                     |
 
-Please note that the `color` should be one of the following predefined color names: `blue`, `magenta`, `red`, `cyan`, `green`, `yellow`.
+Predefined color names: `blue`, `magenta`, `red`, `cyan`, `green`, `yellow`.
 
 Example configuration:
 
 ```json
-"vscode-folder-color.folders": [
+"folder-path-color.folders": [
     { "path": "frontend", "symbol": "SR", "tooltip": "Source files" },
     { "path": "packages/common", "symbol": "T", "tooltip": "Common" }
 ]
