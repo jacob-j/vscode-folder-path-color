@@ -1,4 +1,4 @@
-# vscode-folder-color README
+# Folder Path Color
 
 This extension allows you to color-code folders and files in Visual Studio Code by specifying paths and colors in your workspace settings. The colors are visible in the Explorer view and in the tabs, unless overridden by the app.
 
