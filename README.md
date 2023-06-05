@@ -33,8 +33,8 @@ Example configuration:
 
 ```json
 "vscode-folder-color.folders": [
-    { "path": "src", "color": "lightGreen", "symbol": "SR", "tooltip": "Source files" },
-    { "path": "test", "color": "lightRed", "symbol": "T", "tooltip": "Test files" }
+    { "path": "frontend", "symbol": "SR", "tooltip": "Source files" },
+    { "path": "packages/common", "symbol": "T", "tooltip": "Common" }
 ]
 ```
 
