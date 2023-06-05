@@ -62,10 +62,6 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
     uri: vscode.Uri,
     token: vscode.CancellationToken
   ): vscode.ProviderResult<vscode.FileDecoration> {
-    const colorKeys = Object.keys(colorMap);
-    const config = vscode.workspace.getConfiguration('vscode-folder-color');
-    const folders: any[] = config.get('folders') || [];
-
     if (vscode.workspace.workspaceFolders) {
       const workspacePaths = vscode.workspace.workspaceFolders.map(
         (folder) => folder.uri.path
