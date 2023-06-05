@@ -38,7 +38,6 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
     );
     let i = 0;
     for (const folder of folders) {
-      console.log(folder.color || colors[i] || colorMap[i]);
       this.folders.push({
         path: folder.path,
         color: folder.color || colors[i] || colorMap[i],
