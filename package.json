@@ -3,7 +3,7 @@
   "displayName": "Folder Path Color",
   "publisher": "VisbyDev",
   "description": "All subfolders within a specified path will be assigned a color for easy differentiation.",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "repository": "https://github.com/jacob-j/vscode-folder-path-color",
   "engines": {
     "vscode": "^1.78.0"
