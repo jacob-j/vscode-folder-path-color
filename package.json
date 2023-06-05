@@ -3,13 +3,14 @@
   "displayName": "Folder path color",
   "description": "All subfolders within a specified path will be assigned a color for easy differentiation.",
   "version": "0.0.1",
+  "repository": "https://github.com/jacob-j/vscode-folder-path-color",
   "engines": {
     "vscode": "^1.78.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": ["*"],
+  "activationEvents": ["onStartupFinished"],
   "main": "./dist/extension.js",
   "contributes": {
     "configuration": {
