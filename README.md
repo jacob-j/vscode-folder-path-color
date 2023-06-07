@@ -4,6 +4,10 @@ This extension allows you to color-code folders and files in Visual Studio Code 
 
 ![Screenshot](https://user-images.githubusercontent.com/5649576/243261401-2aa9ba17-c25e-40b0-b478-4da80d6a3b93.png)
 
+Works in search and tabs as well.
+
+<img width="1057" alt="CleanShot 2023-06-05 at 15 43 35@2x" src="https://github.com/jacob-j/vscode-folder-path-color/assets/5649576/45f713a0-f1a1-42d2-bf44-206400ceaa3c">
+
 ## Features
 
 This extension provides the ability to customize the appearance of folders in your workspace explorer. You can assign colors and symbols to folders based on their paths, and the assigned color and symbol will be displayed next to the folder name. You can also specify a tooltip for each folder, which will be displayed when you hover over the folder's symbol.
