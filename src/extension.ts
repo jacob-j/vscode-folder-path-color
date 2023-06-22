@@ -41,7 +41,6 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
       if (!Object.keys(colorMap)[i]) {
         i = 0;
       }
-      console.log(colors, colorMap);
       this.folders.push({
         path: folder.path,
         color: folder.color || colors[i] || Object.keys(colorMap)[i],
@@ -75,7 +74,10 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
         let colorId = colorMap[folder.color];
 
         const pathIsInConfig = workspacePaths.find((root) => {
-          return uri.path.includes(path.join(root, folder.path));
+          const normalizedUriPath = uri.path.replace(/\\/g, '/');
+          const normalizedFolderPath = path.join(root, folder.path).replace(/\\/g, '/');
+
+          return normalizedUriPath.includes(normalizedFolderPath);
         });
 
         if (pathIsInConfig) {
