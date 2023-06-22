@@ -3,7 +3,7 @@
   "displayName": "Folder Path Color",
   "publisher": "VisbyDev",
   "description": "All subfolders within a specified path will be assigned a color for easy differentiation.",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "icon": "/images/logo.png",
   "repository": {
     "type": "git",
