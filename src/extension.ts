@@ -45,6 +45,7 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
         path: folder.path,
         color: folder.color || colors[i] || Object.keys(colorMap)[i],
         symbol: folder.symbol,
+        tooltip: folder.tooltip,
       });
       i++;
     }
