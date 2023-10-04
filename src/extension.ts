@@ -8,6 +8,12 @@ const colorMap: Record<string, string> = {
   cyan: 'terminal.ansiBrightCyan',
   green: 'terminal.ansiBrightGreen',
   yellow: 'terminal.ansiBrightYellow',
+	custom1: 'folderPathColor.custom1',
+	custom2: 'folderPathColor.custom2',
+	custom3: 'folderPathColor.custom3',
+	custom4: 'folderPathColor.custom4',
+	custom5: 'folderPathColor.custom5',
+	custom6: 'folderPathColor.custom6',
 };
 
 class ColorDecorationProvider implements vscode.FileDecorationProvider {
