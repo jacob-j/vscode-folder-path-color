@@ -3,7 +3,7 @@
   "displayName": "Folder Path Color",
   "publisher": "VisbyDev",
   "description": "All subfolders within a specified path will be assigned a color for easy differentiation.",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "icon": "/images/logo.png",
   "repository": {
     "type": "git",
@@ -15,85 +15,87 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": ["onStartupFinished"],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "configuration": {
-        "properties": {
-            "folder-path-color.folders": {
-                "type": "array",
-                "default": [],
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "path": {
-                            "type": "string"
-                        },
-                        "color": {
-                            "type": "string"
-                        },
-                        "symbol": {
-                            "type": "string"
-                        },
-                        "tooltip": {
-                            "type": "string"
-                        }
-                    }
-                },
-                "description": "Array of folder path and color pairs to be colored."
+      "properties": {
+        "folder-path-color.folders": {
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "color": {
+                "type": "string"
+              },
+              "symbol": {
+                "type": "string"
+              },
+              "tooltip": {
+                "type": "string"
+              }
             }
+          },
+          "description": "Array of folder path and color pairs to be colored."
         }
+      }
     },
-		"colors": [
-			{
-				"id": "folderPathColor.custom1",
-				"description": "Assignable custom color 1 for the Folder Path Color extension",
-				"defaults": {
-					"dark": "#ABCDEF",
-					"light": "#123456"
-				}
-			},
-			{
-				"id": "folderPathColor.custom2",
-				"description": "Assignable custom color 2 for the Folder Path Color extension",
-				"defaults": {
-					"dark": "#FEDCBA",
-					"light": "#654321"
-				}
-			},
-			{
-				"id": "folderPathColor.custom3",
-				"description": "Assignable custom color 3 for the Folder Path Color extension",
-				"defaults": {
-					"dark": "#AADDFF",
-					"light": "#336699"
-				}
-			},
-			{
-				"id": "folderPathColor.custom4",
-				"description": "Assignable custom color 4 for the Folder Path Color extension",
-				"defaults": {
-					"dark": "#FF99AA",
-					"light": "#882244"
-				}
-			},
-			{
-				"id": "folderPathColor.custom5",
-				"description": "Assignable custom color 5 for the Folder Path Color extension",
-				"defaults": {
-					"dark": "#AAFF99",
-					"light": "#448822"
-				}
-			},
-			{
-				"id": "folderPathColor.custom6",
-				"description": "Assignable custom color 6 for the Folder Path Color extension",
-				"defaults": {
-					"dark": "#AA99FF",
-					"light": "#442288"
-				}
-			}
-		]
+    "colors": [
+      {
+        "id": "folderPathColor.custom1",
+        "description": "Assignable custom color 1 for the Folder Path Color extension",
+        "defaults": {
+          "dark": "#ABCDEF",
+          "light": "#123456"
+        }
+      },
+      {
+        "id": "folderPathColor.custom2",
+        "description": "Assignable custom color 2 for the Folder Path Color extension",
+        "defaults": {
+          "dark": "#FEDCBA",
+          "light": "#654321"
+        }
+      },
+      {
+        "id": "folderPathColor.custom3",
+        "description": "Assignable custom color 3 for the Folder Path Color extension",
+        "defaults": {
+          "dark": "#AADDFF",
+          "light": "#336699"
+        }
+      },
+      {
+        "id": "folderPathColor.custom4",
+        "description": "Assignable custom color 4 for the Folder Path Color extension",
+        "defaults": {
+          "dark": "#FF99AA",
+          "light": "#882244"
+        }
+      },
+      {
+        "id": "folderPathColor.custom5",
+        "description": "Assignable custom color 5 for the Folder Path Color extension",
+        "defaults": {
+          "dark": "#AAFF99",
+          "light": "#448822"
+        }
+      },
+      {
+        "id": "folderPathColor.custom6",
+        "description": "Assignable custom color 6 for the Folder Path Color extension",
+        "defaults": {
+          "dark": "#AA99FF",
+          "light": "#442288"
+        }
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",
