@@ -13,6 +13,7 @@ Works in search and tabs as well.
 This extension provides the ability to customize the appearance of folders in your workspace explorer. You can assign colors and symbols to folders based on their paths, and the assigned color and symbol will be displayed next to the folder name. You can also specify a tooltip for each folder, which will be displayed when you hover over the folder's symbol.
 
 There are 6 slots for custom colors at this time, which you can update with the `workbench.colorCustomizations` user setting.
+
 > [!NOTE]
 > It's important to note that when a file is under source control and there are changes to be committed, Git will overwrite the file's color with its own color scheme. However, the symbol assigned by this extension will remain visible next to the file name. The custom color will still be shown for folders with Git changes.
 
@@ -46,14 +47,14 @@ Example configuration:
 
 - `folderPathColor`: A color object with 6 slots to use for custom HEX codes. Used under the `workbench.colorCustomizations` user setting.
 
-| Property  | Type   | Default based on theme (Dark/Light)                                                                                                                                     |
-| --------- | ------ | --------------------------- |
-| `custom1`    | string | `#ABCDEF` / `#123456`|    
-| `custom2`    | string | `#FEDCBA` / `#654321` |
-| `custom3`    | string | `#AADDFF` / `#336699` |
-| `custom4`    | string | `#FF99AA` / `#882244` |
-| `custom5`    | string | `#AAFF99` / `#448822` |
-| `custom6`    | string | `#AA99FF` / `#442288` |
+| Property  | Type   | Default based on theme (Dark/Light) |
+| --------- | ------ | ----------------------------------- |
+| `custom1` | string | `#ABCDEF` / `#123456`               |
+| `custom2` | string | `#FEDCBA` / `#654321`               |
+| `custom3` | string | `#AADDFF` / `#336699`               |
+| `custom4` | string | `#FF99AA` / `#882244`               |
+| `custom5` | string | `#AAFF99` / `#448822`               |
+| `custom6` | string | `#AA99FF` / `#442288`               |
 
 Example configuration:
 
@@ -64,24 +65,6 @@ Example configuration:
     "folderPathColor.custom3": "#4488FF",
 },
 ```
-
-If you find this extension useful and would like to show your appreciation, you can [Buy me a beer](https://www.buymeacoffee.com/j92v58tyrjT)! Your support is greatly appreciated. Cheers!
-
-## Known Issues
-
-There are currently no known issues.
-
-## Release Notes
-
-### 0.0.1
-
-Initial release of the vscode-folder-color extension.
-
-### 0.0.2
-
-Updated README and added more colors.
-
----
 
 ## Following extension guidelines
 
