@@ -1,5 +1,6 @@
 import * as vscode from 'vscode';
 import * as path from 'path';
+import { minimatch } from 'minimatch';
 
 const colorMap: Record<string, string> = {
   blue: 'terminal.ansiBlue',
@@ -80,11 +81,21 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
       for (const folder of this.folders) {
         let colorId = colorMap[folder.color];
 
-        const pathIsInConfig = workspacePaths.find((root) => {
+        const pathIsInConfig = workspacePaths.some((root) => {
           const normalizedUriPath = uri.path.replace(/\\/g, '/');
-          const normalizedFolderPath = path.join(root, folder.path).replace(/\\/g, '/');
-
-          return normalizedUriPath.includes(normalizedFolderPath);
+          const fullPath = path.join(root, folder.path).replace(/\\/g, '/');
+          
+          // Check if the path contains glob patterns
+          const hasGlob = /[\*\?\[\]]/.test(folder.path);
+          
+          if (hasGlob) {
+            // For glob patterns, match against the relative path from workspace root
+            const relativePath = path.relative(root, uri.fsPath).replace(/\\/g, '/');
+            return minimatch(relativePath, folder.path, { matchBase: true });
+          }
+          
+          // For backward compatibility, check if the path is included
+          return normalizedUriPath.includes(fullPath);
         });
 
         if (pathIsInConfig) {
