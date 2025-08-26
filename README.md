@@ -29,7 +29,7 @@ This extension does not have any additional requirements or dependencies.
 
 | Property  | Type   | Description                                                                                                                                       |
 | --------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `path`    | string | The path of the folder, relative to the workspace.                                                                                                |
+| `path`    | string | The path of the folder, relative to the workspace. Supports glob patterns (e.g., `**/components/*`, `src/**/test`). |
 | `color`   | string | The color to assign to the folder. This should be one of the predefined color names.                                                              |
 | `symbol`  | string | A short symbol to display next to the folder. This should be a string of maximum 2 characters. You can also use an emoji for more visual display. |
 | `tooltip` | string | A tooltip to display when you hover over the folder's symbol.                                                                                     |
@@ -41,9 +41,17 @@ Example configuration:
 ```json
 "folder-path-color.folders": [
     { "path": "frontend", "symbol": "SR", "tooltip": "Source files" },
-    { "path": "packages/common", "symbol": "T", "tooltip": "Common" }
+    { "path": "packages/common", "symbol": "T", "tooltip": "Common" },
+    { "path": "**/components/*", "color": "blue", "symbol": "⚛", "tooltip": "React Components" },
+    { "path": "src/**/test", "color": "red", "symbol": "🧪", "tooltip": "Test Files" }
 ]
 ```
+
+### Glob Pattern Examples
+
+- `**/components/*` - Matches any folder named "components" at any depth
+- `src/**/test` - Matches any "test" folder inside the "src" directory at any depth
+- `packages/*-utils` - Matches folders like "packages/common-utils" or "packages/math-utils"
 
 - `folderPathColor`: A color object with 6 slots to use for custom HEX codes. Used under the `workbench.colorCustomizations` user setting.
 
