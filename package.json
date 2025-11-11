@@ -1,10 +1,11 @@
 {
   "name": "folder-path-color",
   "displayName": "Folder Path Color",
-  "publisher": "VisbyDev",
+  "publisher": "undeaDD",
   "description": "All subfolders within a specified path will be assigned a color for easy differentiation.",
-  "version": "0.0.14",
+  "version": "1.0.0",
   "icon": "/images/logo.png",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/jacob-j/vscode-folder-path-color"

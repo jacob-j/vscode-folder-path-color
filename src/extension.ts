@@ -115,7 +115,88 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
 
 export function activate(context: vscode.ExtensionContext) {
   const provider = new ColorDecorationProvider();
+
+  const getContrastColor = (hex: string): string => {
+    const r = Number.parseInt(hex.substr(1, 2), 16);
+    const g = Number.parseInt(hex.substr(3, 2), 16);
+    const b = Number.parseInt(hex.substr(5, 2), 16);
+
+    const brightness = (r * 299 + g * 587 + b * 114) / 1000;
+    return brightness > 128 ? "#000000" : "#FFFFFF";
+  }
+
+  const applyTitleBarColor = (color: string | undefined) => {
+    const config = vscode.workspace.getConfiguration("workbench");
+    const current = config.get<any>("colorCustomizations") || {};
+
+    const updates = { ...current };
+
+    if (color) {
+      const foreground = color ? getContrastColor(color) : undefined;
+
+      updates["titleBar.activeBackground"] = color;
+      updates["titleBar.inactiveBackground"] = color;
+      updates["titleBar.activeForeground"] = foreground;
+      updates["titleBar.inactiveForeground"] = foreground ? "#CCCCCC" : undefined;
+    } else {
+      delete updates["titleBar.activeBackground"];
+      delete updates["titleBar.inactiveBackground"];
+      delete updates["titleBar.activeForeground"];
+      delete updates["titleBar.inactiveForeground"];
+    }
+
+    config.update(
+      "colorCustomizations",
+      updates,
+      vscode.ConfigurationTarget.Global
+    );
+  };
+
+  const updateTitleBarColorForUri = (uri?: vscode.Uri) => {
+    if (!uri) {
+      applyTitleBarColor(undefined);
+      return;
+    }
+
+    const filePath = uri.fsPath.replace(/\\/g, "/");
+    const workspacePaths = vscode.workspace.workspaceFolders?.map(
+      (f) => f.uri.fsPath.replace(/\\/g, "/")
+    ) || [];
+
+    for (const folder of provider["folders"]) {
+      const colorId = colorMap[folder.color];
+
+      const pathIsInConfig = workspacePaths.some((root) => {
+        const relativePath = path.relative(root, filePath).replace(/\\/g, "/");
+        return minimatch(relativePath, folder.path, { matchBase: true });
+      });
+
+      if (pathIsInConfig) {
+        const hex =
+          vscode.workspace
+            .getConfiguration("workbench")
+            .get<any>("colorCustomizations")?.[colorId] || undefined;
+
+        applyTitleBarColor(hex);
+        return;
+      }
+    }
+
+    // no match → reset
+    applyTitleBarColor(undefined);
+  };
+
   context.subscriptions.push(
-    vscode.window.registerFileDecorationProvider(provider)
+    vscode.window.registerFileDecorationProvider(provider),
+    vscode.window.onDidChangeActiveTextEditor((editor) => {
+      updateTitleBarColorForUri(editor?.document.uri);
+    }),
+    vscode.window.onDidChangeVisibleTextEditors(() => {
+      const active = vscode.window.activeTextEditor;
+      updateTitleBarColorForUri(active?.document.uri);
+    })
   );
+
+  const activeUri = vscode.window.activeTextEditor?.document.uri;
+  updateTitleBarColorForUri(activeUri);
 }
