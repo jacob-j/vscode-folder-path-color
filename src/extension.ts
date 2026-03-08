@@ -90,7 +90,7 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
           
           if (hasGlob) {
             // For glob patterns, match against the relative path from workspace root
-            const relativePath = path.relative(root, uri.fsPath).replace(/\\/g, '/');
+            const relativePath = path.relative(root, uri.path).replace(/\\/g, '/');
             return minimatch(relativePath, folder.path, { matchBase: true });
           }
           
