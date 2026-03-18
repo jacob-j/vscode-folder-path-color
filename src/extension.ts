@@ -59,12 +59,6 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
   }
 
   constructor() {
-    vscode.workspace.onDidChangeConfiguration((e) => {
-      if (e.affectsConfiguration('folder-path-color.folders')) {
-        this.constructFolders();
-        this._onDidChangeFileDecorations.fire(undefined);
-      }
-    });
     this.constructFolders();
   }
 
@@ -111,11 +105,21 @@ class ColorDecorationProvider implements vscode.FileDecorationProvider {
 
     return undefined;
   }
+  
+  fire() {
+    this._onDidChangeFileDecorations.fire(undefined);
+  }
 }
 
 export function activate(context: vscode.ExtensionContext) {
   const provider = new ColorDecorationProvider();
   context.subscriptions.push(
-    vscode.window.registerFileDecorationProvider(provider)
+    vscode.window.registerFileDecorationProvider(provider),
+    vscode.workspace.onDidChangeConfiguration((e) => {
+      if (e.affectsConfiguration('folder-path-color.folders')) {
+        provider.constructFolders();
+        provider.fire();
+      }
+    })
   );
 }
