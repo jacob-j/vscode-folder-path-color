@@ -12,7 +12,7 @@ Works in search and tabs as well.
 
 This extension provides the ability to customize the appearance of folders in your workspace explorer. You can assign colors and symbols to folders based on their paths, and the assigned color and symbol will be displayed next to the folder name. You can also specify a tooltip for each folder, which will be displayed when you hover over the folder's symbol.
 
-There are 6 slots for custom colors at this time, which you can update with the `workbench.colorCustomizations` user setting.
+There are up to 256 slots for colors at this time.
 
 > [!NOTE]
 > It's important to note that when a file is under source control and there are changes to be committed, Git will overwrite the file's color with its own color scheme. However, the symbol assigned by this extension will remain visible next to the file name. The custom color will still be shown for folders with Git changes.
@@ -29,50 +29,28 @@ This extension does not have any additional requirements or dependencies.
 
 | Property  | Type   | Description                                                                                                                                       |
 | --------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `path`    | string | The path of the folder, relative to the workspace. Supports glob patterns (e.g., `**/components/*`, `src/**/test`). |
-| `color`   | string | The color to assign to the folder. This should be one of the predefined color names.                                                              |
+| `path`    | string | The path of the folder, relative to the workspace. Supports glob patterns (e.g., `**/components/*`, `src/**/test`).                               |
+| `color`   | string | The color to assign to the folder. This should be a valid Hex value or X11 color name.                                                            |
+|           |        | For multi-word colors (e.g. "Alice Blue"), the color name is specified without spaces (e.g. "aliceblue")                                          |
 | `symbol`  | string | A short symbol to display next to the folder. This should be a string of maximum 2 characters. You can also use an emoji for more visual display. |
 | `tooltip` | string | A tooltip to display when you hover over the folder's symbol.                                                                                     |
-
-Predefined color names: `blue`, `magenta`, `red`, `cyan`, `green`, `yellow`.
 
 Example configuration:
 
 ```json
 "folder-path-color.folders": [
     { "path": "frontend", "symbol": "SR", "tooltip": "Source files" },
-    { "path": "packages/common", "symbol": "T", "tooltip": "Common" },
-    { "path": "**/components/*", "color": "blue", "symbol": "⚛", "tooltip": "React Components" },
-    { "path": "src/**/test", "color": "red", "symbol": "🧪", "tooltip": "Test Files" }
+    { "path": "packages/common", "color": "darkslateblue", "symbol": "T", "tooltip": "Common" },
+    { "path": "**/components/*", "color": "aquamarine", "symbol": "⚛", "tooltip": "React Components" },
+    { "path": "src/**/test", "color": "red", "symbol": "🧪", "tooltip": "Test Files" },
 ]
 ```
 
 ### Glob Pattern Examples
 
-- `**/components/*` - Matches any folder named "components" at any depth
-- `src/**/test` - Matches any "test" folder inside the "src" directory at any depth
-- `packages/*-utils` - Matches folders like "packages/common-utils" or "packages/math-utils"
-
-- `folderPathColor`: A color object with 6 slots to use for custom HEX codes. Used under the `workbench.colorCustomizations` user setting.
-
-| Property  | Type   | Default based on theme (Dark/Light) |
-| --------- | ------ | ----------------------------------- |
-| `custom1` | string | `#ABCDEF` / `#123456`               |
-| `custom2` | string | `#FEDCBA` / `#654321`               |
-| `custom3` | string | `#AADDFF` / `#336699`               |
-| `custom4` | string | `#FF99AA` / `#882244`               |
-| `custom5` | string | `#AAFF99` / `#448822`               |
-| `custom6` | string | `#AA99FF` / `#442288`               |
-
-Example configuration:
-
-```json
-"workbench.colorCustomizations": {
-    "folderPathColor.custom1": "#FF4488",
-    "folderPathColor.custom2": "#88ff44",
-    "folderPathColor.custom3": "#4488FF",
-},
-```
+- `**/components/*` – Matches any folder named "components" at any depth
+- `src/**/test` – Matches any "test" folder inside the "src" directory at any depth
+- `packages/*-utils` – Matches folders like "packages/common-utils" or "packages/math-utils"
 
 ## Following extension guidelines
 

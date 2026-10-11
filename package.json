@@ -48,60 +48,2061 @@
     },
     "colors": [
       {
-        "id": "folderPathColor.custom1",
-        "description": "Assignable custom color 1 for the Folder Path Color extension",
+        "id": "folderPathColor.dynamicSlot0",
+        "description": "Dynamic color slot 0",
         "defaults": {
-          "dark": "#ABCDEF",
-          "light": "#123456"
+          "dark": "#FFFFFF",
+          "light": "#000000"
         }
       },
       {
-        "id": "folderPathColor.custom2",
-        "description": "Assignable custom color 2 for the Folder Path Color extension",
+        "id": "folderPathColor.dynamicSlot1",
+        "description": "Dynamic color slot 1",
         "defaults": {
-          "dark": "#FEDCBA",
-          "light": "#654321"
+          "dark": "#FFFFFF",
+          "light": "#000000"
         }
       },
       {
-        "id": "folderPathColor.custom3",
-        "description": "Assignable custom color 3 for the Folder Path Color extension",
+        "id": "folderPathColor.dynamicSlot2",
+        "description": "Dynamic color slot 2",
         "defaults": {
-          "dark": "#AADDFF",
-          "light": "#336699"
+          "dark": "#FFFFFF",
+          "light": "#000000"
         }
       },
       {
-        "id": "folderPathColor.custom4",
-        "description": "Assignable custom color 4 for the Folder Path Color extension",
+        "id": "folderPathColor.dynamicSlot3",
+        "description": "Dynamic color slot 3",
         "defaults": {
-          "dark": "#FF99AA",
-          "light": "#882244"
+          "dark": "#FFFFFF",
+          "light": "#000000"
         }
       },
       {
-        "id": "folderPathColor.custom5",
-        "description": "Assignable custom color 5 for the Folder Path Color extension",
+        "id": "folderPathColor.dynamicSlot4",
+        "description": "Dynamic color slot 4",
         "defaults": {
-          "dark": "#AAFF99",
-          "light": "#448822"
+          "dark": "#FFFFFF",
+          "light": "#000000"
         }
       },
       {
-        "id": "folderPathColor.custom6",
-        "description": "Assignable custom color 6 for the Folder Path Color extension",
+        "id": "folderPathColor.dynamicSlot5",
+        "description": "Dynamic color slot 5",
         "defaults": {
-          "dark": "#AA99FF",
-          "light": "#442288"
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot6",
+        "description": "Dynamic color slot 6",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot7",
+        "description": "Dynamic color slot 7",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot8",
+        "description": "Dynamic color slot 8",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot9",
+        "description": "Dynamic color slot 9",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot10",
+        "description": "Dynamic color slot 10",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot11",
+        "description": "Dynamic color slot 11",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot12",
+        "description": "Dynamic color slot 12",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot13",
+        "description": "Dynamic color slot 13",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot14",
+        "description": "Dynamic color slot 14",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot15",
+        "description": "Dynamic color slot 15",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot16",
+        "description": "Dynamic color slot 16",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot17",
+        "description": "Dynamic color slot 17",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot18",
+        "description": "Dynamic color slot 18",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot19",
+        "description": "Dynamic color slot 19",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot20",
+        "description": "Dynamic color slot 20",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot21",
+        "description": "Dynamic color slot 21",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot22",
+        "description": "Dynamic color slot 22",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot23",
+        "description": "Dynamic color slot 23",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot24",
+        "description": "Dynamic color slot 24",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot25",
+        "description": "Dynamic color slot 25",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot26",
+        "description": "Dynamic color slot 26",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot27",
+        "description": "Dynamic color slot 27",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot28",
+        "description": "Dynamic color slot 28",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot29",
+        "description": "Dynamic color slot 29",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot30",
+        "description": "Dynamic color slot 30",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot31",
+        "description": "Dynamic color slot 31",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot32",
+        "description": "Dynamic color slot 32",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot33",
+        "description": "Dynamic color slot 33",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot34",
+        "description": "Dynamic color slot 34",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot35",
+        "description": "Dynamic color slot 35",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot36",
+        "description": "Dynamic color slot 36",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot37",
+        "description": "Dynamic color slot 37",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot38",
+        "description": "Dynamic color slot 38",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot39",
+        "description": "Dynamic color slot 39",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot40",
+        "description": "Dynamic color slot 40",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot41",
+        "description": "Dynamic color slot 41",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot42",
+        "description": "Dynamic color slot 42",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot43",
+        "description": "Dynamic color slot 43",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot44",
+        "description": "Dynamic color slot 44",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot45",
+        "description": "Dynamic color slot 45",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot46",
+        "description": "Dynamic color slot 46",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot47",
+        "description": "Dynamic color slot 47",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot48",
+        "description": "Dynamic color slot 48",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot49",
+        "description": "Dynamic color slot 49",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot50",
+        "description": "Dynamic color slot 50",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot51",
+        "description": "Dynamic color slot 51",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot52",
+        "description": "Dynamic color slot 52",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot53",
+        "description": "Dynamic color slot 53",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot54",
+        "description": "Dynamic color slot 54",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot55",
+        "description": "Dynamic color slot 55",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot56",
+        "description": "Dynamic color slot 56",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot57",
+        "description": "Dynamic color slot 57",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot58",
+        "description": "Dynamic color slot 58",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot59",
+        "description": "Dynamic color slot 59",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot60",
+        "description": "Dynamic color slot 60",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot61",
+        "description": "Dynamic color slot 61",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot62",
+        "description": "Dynamic color slot 62",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot63",
+        "description": "Dynamic color slot 63",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot64",
+        "description": "Dynamic color slot 64",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot65",
+        "description": "Dynamic color slot 65",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot66",
+        "description": "Dynamic color slot 66",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot67",
+        "description": "Dynamic color slot 67",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot68",
+        "description": "Dynamic color slot 68",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot69",
+        "description": "Dynamic color slot 69",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot70",
+        "description": "Dynamic color slot 70",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot71",
+        "description": "Dynamic color slot 71",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot72",
+        "description": "Dynamic color slot 72",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot73",
+        "description": "Dynamic color slot 73",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot74",
+        "description": "Dynamic color slot 74",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot75",
+        "description": "Dynamic color slot 75",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot76",
+        "description": "Dynamic color slot 76",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot77",
+        "description": "Dynamic color slot 77",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot78",
+        "description": "Dynamic color slot 78",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot79",
+        "description": "Dynamic color slot 79",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot80",
+        "description": "Dynamic color slot 80",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot81",
+        "description": "Dynamic color slot 81",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot82",
+        "description": "Dynamic color slot 82",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot83",
+        "description": "Dynamic color slot 83",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot84",
+        "description": "Dynamic color slot 84",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot85",
+        "description": "Dynamic color slot 85",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot86",
+        "description": "Dynamic color slot 86",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot87",
+        "description": "Dynamic color slot 87",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot88",
+        "description": "Dynamic color slot 88",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot89",
+        "description": "Dynamic color slot 89",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot90",
+        "description": "Dynamic color slot 90",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot91",
+        "description": "Dynamic color slot 91",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot92",
+        "description": "Dynamic color slot 92",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot93",
+        "description": "Dynamic color slot 93",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot94",
+        "description": "Dynamic color slot 94",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot95",
+        "description": "Dynamic color slot 95",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot96",
+        "description": "Dynamic color slot 96",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot97",
+        "description": "Dynamic color slot 97",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot98",
+        "description": "Dynamic color slot 98",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot99",
+        "description": "Dynamic color slot 99",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot100",
+        "description": "Dynamic color slot 100",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot101",
+        "description": "Dynamic color slot 101",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot102",
+        "description": "Dynamic color slot 102",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot103",
+        "description": "Dynamic color slot 103",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot104",
+        "description": "Dynamic color slot 104",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot105",
+        "description": "Dynamic color slot 105",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot106",
+        "description": "Dynamic color slot 106",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot107",
+        "description": "Dynamic color slot 107",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot108",
+        "description": "Dynamic color slot 108",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot109",
+        "description": "Dynamic color slot 109",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot110",
+        "description": "Dynamic color slot 110",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot111",
+        "description": "Dynamic color slot 111",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot112",
+        "description": "Dynamic color slot 112",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot113",
+        "description": "Dynamic color slot 113",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot114",
+        "description": "Dynamic color slot 114",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot115",
+        "description": "Dynamic color slot 115",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot116",
+        "description": "Dynamic color slot 116",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot117",
+        "description": "Dynamic color slot 117",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot118",
+        "description": "Dynamic color slot 118",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot119",
+        "description": "Dynamic color slot 119",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot120",
+        "description": "Dynamic color slot 120",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot121",
+        "description": "Dynamic color slot 121",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot122",
+        "description": "Dynamic color slot 122",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot123",
+        "description": "Dynamic color slot 123",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot124",
+        "description": "Dynamic color slot 124",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot125",
+        "description": "Dynamic color slot 125",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot126",
+        "description": "Dynamic color slot 126",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot127",
+        "description": "Dynamic color slot 127",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot128",
+        "description": "Dynamic color slot 128",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot129",
+        "description": "Dynamic color slot 129",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot130",
+        "description": "Dynamic color slot 130",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot131",
+        "description": "Dynamic color slot 131",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot132",
+        "description": "Dynamic color slot 132",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot133",
+        "description": "Dynamic color slot 133",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot134",
+        "description": "Dynamic color slot 134",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot135",
+        "description": "Dynamic color slot 135",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot136",
+        "description": "Dynamic color slot 136",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot137",
+        "description": "Dynamic color slot 137",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot138",
+        "description": "Dynamic color slot 138",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot139",
+        "description": "Dynamic color slot 139",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot140",
+        "description": "Dynamic color slot 140",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot141",
+        "description": "Dynamic color slot 141",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot142",
+        "description": "Dynamic color slot 142",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot143",
+        "description": "Dynamic color slot 143",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot144",
+        "description": "Dynamic color slot 144",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot145",
+        "description": "Dynamic color slot 145",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot146",
+        "description": "Dynamic color slot 146",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot147",
+        "description": "Dynamic color slot 147",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot148",
+        "description": "Dynamic color slot 148",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot149",
+        "description": "Dynamic color slot 149",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot150",
+        "description": "Dynamic color slot 150",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot151",
+        "description": "Dynamic color slot 151",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot152",
+        "description": "Dynamic color slot 152",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot153",
+        "description": "Dynamic color slot 153",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot154",
+        "description": "Dynamic color slot 154",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot155",
+        "description": "Dynamic color slot 155",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot156",
+        "description": "Dynamic color slot 156",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot157",
+        "description": "Dynamic color slot 157",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot158",
+        "description": "Dynamic color slot 158",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot159",
+        "description": "Dynamic color slot 159",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot160",
+        "description": "Dynamic color slot 160",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot161",
+        "description": "Dynamic color slot 161",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot162",
+        "description": "Dynamic color slot 162",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot163",
+        "description": "Dynamic color slot 163",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot164",
+        "description": "Dynamic color slot 164",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot165",
+        "description": "Dynamic color slot 165",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot166",
+        "description": "Dynamic color slot 166",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot167",
+        "description": "Dynamic color slot 167",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot168",
+        "description": "Dynamic color slot 168",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot169",
+        "description": "Dynamic color slot 169",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot170",
+        "description": "Dynamic color slot 170",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot171",
+        "description": "Dynamic color slot 171",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot172",
+        "description": "Dynamic color slot 172",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot173",
+        "description": "Dynamic color slot 173",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot174",
+        "description": "Dynamic color slot 174",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot175",
+        "description": "Dynamic color slot 175",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot176",
+        "description": "Dynamic color slot 176",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot177",
+        "description": "Dynamic color slot 177",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot178",
+        "description": "Dynamic color slot 178",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot179",
+        "description": "Dynamic color slot 179",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot180",
+        "description": "Dynamic color slot 180",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot181",
+        "description": "Dynamic color slot 181",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot182",
+        "description": "Dynamic color slot 182",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot183",
+        "description": "Dynamic color slot 183",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot184",
+        "description": "Dynamic color slot 184",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot185",
+        "description": "Dynamic color slot 185",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot186",
+        "description": "Dynamic color slot 186",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot187",
+        "description": "Dynamic color slot 187",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot188",
+        "description": "Dynamic color slot 188",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot189",
+        "description": "Dynamic color slot 189",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot190",
+        "description": "Dynamic color slot 190",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot191",
+        "description": "Dynamic color slot 191",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot192",
+        "description": "Dynamic color slot 192",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot193",
+        "description": "Dynamic color slot 193",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot194",
+        "description": "Dynamic color slot 194",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot195",
+        "description": "Dynamic color slot 195",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot196",
+        "description": "Dynamic color slot 196",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot197",
+        "description": "Dynamic color slot 197",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot198",
+        "description": "Dynamic color slot 198",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot199",
+        "description": "Dynamic color slot 199",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot200",
+        "description": "Dynamic color slot 200",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot201",
+        "description": "Dynamic color slot 201",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot202",
+        "description": "Dynamic color slot 202",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot203",
+        "description": "Dynamic color slot 203",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot204",
+        "description": "Dynamic color slot 204",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot205",
+        "description": "Dynamic color slot 205",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot206",
+        "description": "Dynamic color slot 206",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot207",
+        "description": "Dynamic color slot 207",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot208",
+        "description": "Dynamic color slot 208",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot209",
+        "description": "Dynamic color slot 209",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot210",
+        "description": "Dynamic color slot 210",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot211",
+        "description": "Dynamic color slot 211",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot212",
+        "description": "Dynamic color slot 212",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot213",
+        "description": "Dynamic color slot 213",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot214",
+        "description": "Dynamic color slot 214",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot215",
+        "description": "Dynamic color slot 215",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot216",
+        "description": "Dynamic color slot 216",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot217",
+        "description": "Dynamic color slot 217",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot218",
+        "description": "Dynamic color slot 218",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot219",
+        "description": "Dynamic color slot 219",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot220",
+        "description": "Dynamic color slot 220",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot221",
+        "description": "Dynamic color slot 221",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot222",
+        "description": "Dynamic color slot 222",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot223",
+        "description": "Dynamic color slot 223",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot224",
+        "description": "Dynamic color slot 224",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot225",
+        "description": "Dynamic color slot 225",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot226",
+        "description": "Dynamic color slot 226",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot227",
+        "description": "Dynamic color slot 227",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot228",
+        "description": "Dynamic color slot 228",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot229",
+        "description": "Dynamic color slot 229",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot230",
+        "description": "Dynamic color slot 230",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot231",
+        "description": "Dynamic color slot 231",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot232",
+        "description": "Dynamic color slot 232",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot233",
+        "description": "Dynamic color slot 233",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot234",
+        "description": "Dynamic color slot 234",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot235",
+        "description": "Dynamic color slot 235",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot236",
+        "description": "Dynamic color slot 236",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot237",
+        "description": "Dynamic color slot 237",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot238",
+        "description": "Dynamic color slot 238",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot239",
+        "description": "Dynamic color slot 239",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot240",
+        "description": "Dynamic color slot 240",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot241",
+        "description": "Dynamic color slot 241",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot242",
+        "description": "Dynamic color slot 242",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot243",
+        "description": "Dynamic color slot 243",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot244",
+        "description": "Dynamic color slot 244",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot245",
+        "description": "Dynamic color slot 245",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot246",
+        "description": "Dynamic color slot 246",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot247",
+        "description": "Dynamic color slot 247",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot248",
+        "description": "Dynamic color slot 248",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot249",
+        "description": "Dynamic color slot 249",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot250",
+        "description": "Dynamic color slot 250",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot251",
+        "description": "Dynamic color slot 251",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot252",
+        "description": "Dynamic color slot 252",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot253",
+        "description": "Dynamic color slot 253",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot254",
+        "description": "Dynamic color slot 254",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
+        }
+      },
+      {
+        "id": "folderPathColor.dynamicSlot255",
+        "description": "Dynamic color slot 255",
+        "defaults": {
+          "dark": "#FFFFFF",
+          "light": "#000000"
         }
       }
     ]
   },
   "scripts": {
-    "vscode:prepublish": "yarn run package",
+    "vscode:prepublish": "tsc -p .",
+    "precompile": "node scripts/generate-slots.js",
     "compile": "webpack",
-    "watch": "webpack --watch",
-    "package": "webpack --mode production --devtool hidden-source-map",
+    "watch": "node scripts/generate-slots.js && webpack --watch",
+    "package": "node scripts/generate-slots.js && webpack --mode production --devtool hidden-source-map",
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "yarn run compile-tests && yarn run compile && yarn run lint",
